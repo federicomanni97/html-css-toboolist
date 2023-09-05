@@ -1,42 +1,58 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
 
-
-.container{
-    height: 90px;
+body{
+    background-color: #F6F8F9;
 }
 
+main {
+    height: 100%;
+}
+
+/*Container1*/
+.container{
+    height: 90px;
+    background-color: white;
+}
+
+/*logo img*/
 .logo > img{
     height: 80px;
     vertical-align: middle;
 }
 
+/*titolo*/
 .title {
     display: inline-block;
     vertical-align: middle;
     font-size: 50px;
 }
 
+/*Container2*/
 .container2 {
     margin: auto;
-    margin-top: 30px;
-    height: 100%;
+    margin-top: 50px;
+    height: 840px;
     width: 60%;
-    border: 1px solid black;
+    border: 1px solid grey;
     padding: 10px;
     border-radius: 10px;
+    border-style: none;
+    background-color: white;
 }
 
+/*bottoni*/
 .button1{
     background-color: #47ADF1;
     color: white;
     border-radius: 10px;
     border-style: none;
     padding: 10px;
+    margin-left: 25px;
+    margin-top: 5px;
 }
 
 .button2{
@@ -49,31 +65,110 @@
     padding-right: 15px;
 }
 
+
+hr{
+    margin-top: 10px;
+}
+
+
 ol {
     list-style: none;
 }
 
 .title-list{
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 
-#arrows{
+.arrows{
     font-size: 15px;
 }
 
 li{
     padding-top: 15px;  
-    font-size: 20px;  
+    font-size: 20px; 
+    margin-left: 25px; 
     
 }
 
-#circle{
+/*cerchi*/
+.circle{
     height: 20px;
     width: 20px;
     border-radius: 50%;
     border: 2px solid green;
+    text-align: center;
     display: inline-block;
-      
+    line-height: 20px;
+    color: green;
+    font-size: 15px;
 }
 
+/*X symbol*/
+.error-symbol{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+    text-align: center;
+    display: inline-block;
+    line-height: 20px;
+    color: red;
+    font-size: 15px;
+}
+
+/* backgrounds fine lista */
+.blue-background{
+    font-size: 15px;
+    background-color: #45ABEA;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.purple-background{
+    font-size: 15px;
+    background-color: #9C72E4;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.green-background{
+    font-size: 15px;
+    background-color: #64C0A9;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.orange-background{
+    font-size: 15px;
+    background-color: #F29E33;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.pink-background{
+    font-size: 15px;
+    background-color: #D863A1;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.olive-background{
+    font-size: 15px;
+    background-color: #B0C926;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+}
